@@ -1,0 +1,61 @@
+body{
+    border: 2px solid rgb(20, 52, 212);
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    border: 2px solid blue;
+    margin: 10px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.logos1{
+    border: 2px solid rgb(15, 42, 165);
+     margin: 10px;
+     width: 100px;
+}
+.navlien1{
+    border: 2px solid rgb(15, 42, 165);
+     margin: 10px;
+    
+}
+.main{
+    border: 2px solid rgb(15, 42, 165);
+     margin: 10px;
+    
+}
+.services{
+     border: 2px solid rgb(15, 42, 165);
+     margin: 10px;
+}
+.hero {
+    border: 2px solid blue;
+    margin: 10px;
+}
+.equipe{
+     border: 2px solid rgb(15, 42, 165);
+     margin: 10px;
+}
+.m-equipe{
+     border: 2px solid rgb(15, 42, 165);
+     margin: 10px;
+}
+.t1{
+     border: 2px solid rgb(15, 42, 165);
+     margin: 10px;
+}
+
+footer{
+     border: 2px solid rgb(15, 42, 165);
+     margin: 10px;
+}
+.contenu{
+    border: 2px solid rgb(15, 42, 165);
+     margin: 10px;
+}
+.lien{
+     border: 2px solid rgb(15, 42, 165);
+     margin: 10px;
+}
