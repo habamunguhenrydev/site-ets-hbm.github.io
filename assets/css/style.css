@@ -1,8 +1,8 @@
 body{
-    border: 2px solid rgb(20, 52, 212);
-    margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(242, 248, 248, 0.603);
 }
+
 a{
     text-decoration: none;  
     color: hsl(256, 100%, 50%);
@@ -22,18 +22,27 @@ nav{
     background-image: url("../images/header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 400px;
+ 
+}
+.hero2 {
+     margin: 100px 200px 200px 50px;
+}
+.hero2 h1{
+     font-size: 50px;
 }
 .nav-button { 
      
-     background-color: rgb(0, 255, 221);
+     background-color: rgb(3, 255, 221);
+     border-radius: 5%;
      position: absolute;
-     right: 80px;
-     top: 200px;
+     right: 50px;
+     bottom: 40%;
      font-weight: bold;
      font-size: 18px;
-     padding: 10px;
-     border: radius 10px;
-     appearance: none;
+     padding: 20px;
+     
+
 }
 
 .logos1{
@@ -54,54 +63,135 @@ nav{
     padding: 10px;
     
 }
-.main{
-    border: 2px solid rgb(15, 42, 165);
-     margin: 10px;
-    
-}
 .services{
-     border: 2px solid rgb(15, 42, 165);
      margin: 10px;
      display: flex;
      flex-direction: row;
      justify-content: space-between;
 
 }
+.service1{
+     display: flex;
+     align-content: center;
+     flex-direction: column;
+    margin-left: 50px;
+     width: 500px;
+     padding: 10px;
+
+}
+.service1 li{
+    margin: 20px;
+     font-size: 18px;
+     font-weight: bold;
+}
 aside{
-     border: 2px solid rgb(15, 42, 165);
      margin: 10px;
      display: flex;
      flex-direction: row;
      gap: 10px;
      flex-wrap: wrap;
+     width: 500px;
 }
 aside img{
-     width: 100px;
-     height: 100px
+     width: 200px;
+     height: 200px;
+     border-radius: 10%;
+     margin: 10px;
+}
+.equipe1{
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.equipe h2{
+     margin-left: 30px;
+     font-size: 18px;
+     font-weight: bold;
+}
+.equipe p{
+     margin-left: 30px;
+     font-size: 14px;
      
 }
-.equipe{
-     border: 2px solid rgb(15, 42, 165);
-     margin: 10px;
-}
 .m-equipe{
-     border: 2px solid rgb(15, 42, 165);
+     border: 2px solid beige;
+     border-radius: 10px;
+     padding: 10px;
      margin: 10px;
+     display: flex;
+     flex-direction: row;
+}
+.equipe1 img{
+     width: 100px;
+     height: 100px;
+     border-radius: 10%;
+     margin: 10px;
+     
+}
+.equipe1 h3{
+     margin: 10px;
+     font-size: 18px;
+     font-weight: bold;
+     
+}
+.equipe1 p{
+     margin: 10px;
+     font-size: 18px;
+     font-style: italic;
 }
 .t1{
-     border: 2px solid rgb(15, 42, 165);
+     display: flex;
+     flex-direction: row;
+      background-color: beige;
+}
+.t1 video{
+     border-radius: 10px;
      margin: 10px;
+
+}
+.temoignage1{
+     margin: 10px;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+}
+.temoignage1 h3{
+     font-size: 18px;
+     font-style: italic;
+     margin-left: 80%;
+}
+.temoignage h2{
+     text-align: center;
+     font-size: 24px;
+     font-weight: bold;
+}
+.button{
+     display: flex;
+     flex-direction: row;
+     justify-content:space-between;
+     position: relative;
+     bottom: 70px;
+    
+}
+footer{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
 }
 
-footer{
-     border: 2px solid rgb(15, 42, 165);
-     margin: 10px;
+.contenu img{
+     width: 100px;
 }
-.contenu{
-    border: 2px solid rgb(15, 42, 165);
-     margin: 10px;
+
+.lien ul{
+     display: flex;
+     flex-direction: row;
 }
-.lien{
-     border: 2px solid rgb(15, 42, 165);
-     margin: 10px;
+.lien li {
+     list-style: none;
+}
+.lien img{
+     width: 50px;
+
 }
