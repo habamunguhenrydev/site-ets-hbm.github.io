@@ -1,3 +1,4 @@
+  
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(242, 248, 248, 0.603);
@@ -17,6 +18,8 @@ nav{
     background-color: beige; 
 }
 
+@media screen and (min-width:1200px) {
+     
 .hero1 {
     padding: 10px;
     background-image: url("../images/header.jpg");
@@ -194,4 +197,644 @@ footer{
 .lien img{
      width: 50px;
 
+}
+/* ici commence la page tableau.html */
+td,th{
+     border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+
+}
+table{
+       border-collapse: collapse;
+       display: flex;
+       flex-direction: row;
+     
+      
+}
+th{
+     color: blue;
+     background-color: aqua;
+}
+/* ici commece la page service */
+.form{
+     margin-left: 10%;
+     margin-right: 10%;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+}
+.formname{
+    
+   display: flex;
+   flex-direction: row;
+   margin: 10px;
+   justify-content: space-between;
+   padding: 10px;
+
+}
+input{
+     width: 400px;
+     height: 40px;
+     border-radius: 10px;
+     padding: 10px;
+}
+select{
+height: 40px;
+border-radius: 10px;
+
+}
+.formname1{
+     display: flex;
+     flex-direction: column;   
+}
+
+.formservices{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+} 
+
+.formmessage{
+      
+    display: flex;  
+    flex-direction: column;
+    padding: 10px;
+}
+
+textarea{
+    width: 100%;
+     height: 200px;
+     padding: 10px;
+     border-radius: 10px;
+}
+.formnewsletter{
+   
+    display: flex; 
+    flex-direction: row;  
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 10px;
+}
+.checkbox{
+     padding: 0px;
+     height: 20px;
+     width: 20px;
+     margin-left: 20px;
+}
+.submit{
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 10px;
+}   
+
+}
+
+@media screen and (min-width: 700px) and (max-width:1199px){
+
+  .hero1 {
+    padding: 10px;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+ 
+}
+.hero2 {
+     margin: 100px 200px 200px 50px;
+}
+.hero2 h1{
+     font-size: 50px;
+}
+.nav-button { 
+     
+     background-color: rgb(3, 255, 221);
+     border-radius: 5%;
+     position: absolute;
+     right: 50px;
+     bottom: 40%;
+     font-weight: bold;
+     font-size: 18px;
+     padding: 20px;
+     
+
+}
+
+.logos1{
+     margin: 10px;
+     width: 60px;
+     height: 60px;
+    
+}
+.navlien1{
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     gap: 60px;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.services{
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+}
+.service1{
+     display: flex;
+     align-content: center;
+     flex-direction: column;
+    margin-left: 50px;
+     width: 500px;
+     padding: 10px;
+
+}
+.service1 li{
+    margin: 20px;
+     font-size: 18px;
+     font-weight: bold;
+}
+aside{
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     flex-wrap: wrap;
+     width: 500px;
+}
+aside img{
+     width: 200px;
+     height: 200px;
+     border-radius: 10%;
+     margin: 10px;
+}
+.equipe1{
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.equipe h2{
+     margin-left: 30px;
+     font-size: 18px;
+     font-weight: bold;
+}
+.equipe p{
+     margin-left: 30px;
+     font-size: 14px;
+     
+}
+.m-equipe{
+     border: 2px solid beige;
+     border-radius: 10px;
+     padding: 10px;
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+}
+.equipe1 img{
+     width: 100px;
+     height: 100px;
+     border-radius: 10%;
+     margin: 10px;
+     
+}
+.equipe1 h3{
+     margin: 10px;
+     font-size: 18px;
+     font-weight: bold;
+     
+}
+.equipe1 p{
+     margin: 10px;
+     font-size: 18px;
+     font-style: italic;
+}
+.t1{
+     display: flex;
+     flex-direction: row;
+      background-color: beige;
+}
+.t1 video{
+     border-radius: 10px;
+     margin: 10px;
+
+}
+.temoignage1{
+     margin: 10px;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+}
+.temoignage1 h3{
+     font-size: 18px;
+     font-style: italic;
+     margin-left: 80%;
+}
+.temoignage h2{
+     text-align: center;
+     font-size: 24px;
+     font-weight: bold;
+}
+.button{
+     display: flex;
+     flex-direction: row;
+     justify-content:space-between;
+     position: relative;
+     bottom: 70px;
+    
+}
+footer{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+
+.contenu img{
+     width: 100px;
+}
+
+.lien ul{
+     display: flex;
+     flex-direction: row;
+}
+.lien li {
+     list-style: none;
+}
+.lien img{
+     width: 50px;
+
+}
+/* ici commence la page tableau.html */
+td,th{
+     border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+
+}
+table{
+       border-collapse: collapse;
+       display: flex;
+       flex-direction: row;
+     
+      
+}
+th{
+     color: blue;
+     background-color: aqua;
+}
+/* ici commece la page service */
+.form{
+     margin-left: 10%;
+     margin-right: 10%;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+}
+.formname{
+    
+   display: flex;
+   flex-direction: row;
+   margin: 10px;
+   justify-content: space-between;
+   padding: 10px;
+
+}
+input{
+     width: 200px;
+     height: 40px;
+     border-radius: 10px;
+     padding: 10px;
+}
+select{
+height: 40px;
+border-radius: 10px;
+
+}
+.formname1{
+     display: flex;
+     flex-direction: column;   
+}
+
+.formservices{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+} 
+
+.formmessage{
+      
+    display: flex;  
+    flex-direction: column;
+    padding: 10px;
+}
+
+textarea{
+    width: 100%;
+     height: 200px;
+     padding: 10px;
+     border-radius: 10px;
+}
+.formnewsletter{
+   
+    display: flex; 
+    flex-direction: row;  
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 10px;
+}
+.checkbox{
+     padding: 0px;
+     height: 20px;
+     width: 20px;
+     margin-left: 20px;
+}
+.submit{
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 10px;
+}  
+}
+@media screen and (max-width: 700px){
+     .hero1 {
+    padding: 10px;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+ 
+}
+.hero2 {
+     margin: 100px 200px 200px 50px;
+}
+.hero2 h1{
+     font-size: 50px;
+}
+.nav-button { 
+     
+     background-color: rgb(3, 255, 221);
+     border-radius: 5%;
+     position: absolute;
+     right: 50px;
+     bottom: 40%;
+     font-weight: bold;
+     font-size: 18px;
+     padding: 20px;
+     
+
+}
+
+.logos1{
+     margin: 10px;
+     width: 60px;
+     height: 60px;
+    
+}
+.navlien1{
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     gap: 60px;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.services{
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+}
+.service1{
+     display: flex;
+     align-content: center;
+     flex-direction: column;
+    margin-left: 50px;
+     width: 500px;
+     padding: 10px;
+
+}
+.service1 li{
+    margin: 20px;
+     font-size: 18px;
+     font-weight: bold;
+}
+aside{
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     flex-wrap: wrap;
+     width: 500px;
+}
+aside img{
+     width: 200px;
+     height: 200px;
+     border-radius: 10%;
+     margin: 10px;
+}
+.equipe1{
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.equipe h2{
+     margin-left: 30px;
+     font-size: 18px;
+     font-weight: bold;
+}
+.equipe p{
+     margin-left: 30px;
+     font-size: 14px;
+     
+}
+.m-equipe{
+     border: 2px solid beige;
+     border-radius: 10px;
+     padding: 10px;
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+}
+.equipe1 img{
+     width: 100px;
+     height: 100px;
+     border-radius: 10%;
+     margin: 10px;
+     
+}
+.equipe1 h3{
+     margin: 10px;
+     font-size: 18px;
+     font-weight: bold;
+     
+}
+.equipe1 p{
+     margin: 10px;
+     font-size: 18px;
+     font-style: italic;
+}
+.t1{
+     display: flex;
+     flex-direction: row;
+      background-color: beige;
+}
+.t1 video{
+     border-radius: 10px;
+     margin: 10px;
+
+}
+.temoignage1{
+     margin: 10px;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+}
+.temoignage1 h3{
+     font-size: 18px;
+     font-style: italic;
+     margin-left: 80%;
+}
+.temoignage h2{
+     text-align: center;
+     font-size: 24px;
+     font-weight: bold;
+}
+.button{
+     display: flex;
+     flex-direction: row;
+     justify-content:space-between;
+     position: relative;
+     bottom: 70px;
+    
+}
+footer{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+
+.contenu img{
+     width: 100px;
+}
+
+.lien ul{
+     display: flex;
+     flex-direction: row;
+}
+.lien li {
+     list-style: none;
+}
+.lien img{
+     width: 50px;
+
+}
+/* ici commence la page tableau.html */
+td,th{
+     border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+
+}
+table{
+       border-collapse: collapse;
+       display: flex;
+       flex-direction: row;
+     
+      
+}
+th{
+     color: blue;
+     background-color: aqua;
+}
+/* ici commece la page service */
+.form{
+     margin-left: 10%;
+     margin-right: 10%;
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+}
+.formname{
+    
+   display: flex;
+   flex-direction: row;
+   margin: 10px;
+   justify-content: space-between;
+   padding: 10px;
+
+}
+input{
+     width: 100px;
+     height: 40px;
+     border-radius: 10px;
+     padding: 10px;
+}
+select{
+height: 40px;
+border-radius: 10px;
+
+}
+.formname1{
+     display: flex;
+     flex-direction: column;   
+}
+
+.formservices{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+} 
+
+.formmessage{
+      
+    display: flex;  
+    flex-direction: column;
+    padding: 10px;
+}
+
+textarea{
+    width: 100%;
+     height: 200px;
+     padding: 10px;
+     border-radius: 10px;
+}
+.formnewsletter{
+   
+    display: flex; 
+    flex-direction: row;  
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 10px;
+}
+.checkbox{
+     padding: 0px;
+     height: 20px;
+     width: 20px;
+     margin-left: 20px;
+}
+.submit{
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 10px;
+}  
 }
