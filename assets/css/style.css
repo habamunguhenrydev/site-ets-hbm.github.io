@@ -44,7 +44,6 @@ nav{
      font-weight: bold;
      font-size: 18px;
      padding: 20px;
-     
 
 }
 
@@ -284,14 +283,11 @@ textarea{
      margin-left: 20px;
 }
 .submit{
-   
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    padding: 10px;
 }   
-
-}
 
 @media screen and (min-width: 700px) and (max-width:1199px){
 
@@ -558,14 +554,12 @@ textarea{
      width: 20px;
      margin-left: 20px;
 }
-.submit{
+.submit  {
    
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   padding: 10px;
-}  
-}
+   padding: 10px; }
 @media screen and (max-width: 700px){
      .hero1 {
     padding: 10px;
@@ -661,8 +655,7 @@ aside img{
 }
 .equipe p{
      margin-left: 30px;
-     font-size: 14px;
-     
+     font-size: 14px;    
 }
 .m-equipe{
      border: 2px solid beige;
@@ -777,9 +770,6 @@ th{
    flex-direction: row;
    margin: 100px;
    justify-content: space-between;
-   
-  
-
 }
 input{
      width: 100px;
@@ -837,4 +827,4 @@ textarea{
    flex-direction: row; 
    justify-content: center;
    padding: 10px;
-   width: 100%;     
+width: 100%;}
