@@ -34,9 +34,10 @@
     </header>
 
     <main>
-        <section class="hero container" aria-labelledby="hero-title">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-inner">
             <div class="row align-items-center g-5">
-                <div class="col-lg-6 hero-copy">
+                <div class="col-lg-7 hero-copy">
                     <p class="eyebrow"><span class="eyebrow-dot"></span> Ancré à Goma, proche de vous</p>
                     <h1 id="hero-title">Les bonnes idées<br>prennent <span>forme ici.</span></h1>
                     <p class="hero-intro">Un seul partenaire, plusieurs savoir-faire. HBM Multi-Services met son énergie et son expérience au service des projets qui font avancer notre communauté.</p>
@@ -46,9 +47,8 @@
                     </div>
                     <div class="hero-note"><span class="note-line"></span><span>Du travail bien fait. Des relations qui durent.</span></div>
                 </div>
-                <div class="col-lg-6 hero-visual-wrap">
+                <div class="col-lg-5 hero-visual-wrap">
                     <div class="hero-visual">
-                        <img class="hero-image" src="assets/images/quincaillerie.jpeg" alt="Un membre de l'équipe HBM dans son atelier à Goma">
                         <div class="glass-note">
                             <span class="glass-icon" aria-hidden="true">✳</span>
                             <div><strong>Du concret, chaque jour.</strong><span>Des équipes engagées à Goma</span></div>
@@ -60,6 +60,7 @@
             <div class="hero-bottom row align-items-center mt-5 pt-4">
                 <div class="col-md-5"><span class="hero-location">Goma, République Démocratique du Congo</span></div>
                 <div class="col-md-7"><div class="service-ribbon"><span>Imprimerie</span><i></i><span>Coiffure</span><i></i><span>Quincaillerie</span><i></i><span>Immobilier</span><i></i><span>Soudure</span></div></div>
+            </div>
             </div>
         </section>
 
@@ -114,29 +115,38 @@
                         <a class="text-link" href="a-propos.html">Rencontrer HBM <span aria-hidden="true">↗</span></a>
                     </div>
                     <div class="col-lg-7">
-                        <div class="row g-3 team-grid">
-                            <div class="col-sm-6">
+                        <div id="teamCarousel" class="carousel slide team-carousel" data-bs-interval="false" data-bs-touch="true">
+                            <div class="carousel-inner team-carousel-inner">
+                                <div class="carousel-item active">
                                 <article class="team-member">
                                     <img src="assets/images/habamungu.JPG" alt="Habamungu Mungeyo Henry" loading="lazy">
                                     <div class="team-caption"><h3>Habamungu Mungeyo Henry</h3><p>Directeur général</p></div>
                                 </article>
-                            </div>
-                            <div class="col-sm-6 team-offset">
+                                </div>
+                                <div class="carousel-item">
                                 <article class="team-member">
                                     <img src="assets/images/nicaise.jpeg" alt="Nicaise Biruru Henriette" loading="lazy">
                                     <div class="team-caption"><h3>Nicaise Biruru Henriette</h3><p>Comptable</p></div>
                                 </article>
-                            </div>
-                            <div class="col-sm-6">
-                                <article class="team-member team-member-small">
+                                </div>
+                                <div class="carousel-item">
+                                <article class="team-member">
                                     <img src="assets/images/images.jpg" alt="Aksante Pascal, chef d'atelier" loading="lazy">
                                     <div class="team-caption"><h3>Aksante Pascal</h3><p>Chef d'atelier</p></div>
                                 </article>
+                                </div>
                             </div>
-                            <div class="col-sm-6 d-flex align-items-center">
-                                <p class="team-signoff">La qualité d'un service commence par l'attention qu'on porte aux gens.</p>
+                            <div class="team-carousel-controls">
+                                <button class="team-carousel-arrow" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev" aria-label="Voir le membre précédent"><span aria-hidden="true">←</span></button>
+                                <div class="carousel-indicators team-carousel-indicators">
+                                    <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Afficher Habamungu Mungeyo Henry"></button>
+                                    <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="1" aria-label="Afficher Nicaise Biruru Henriette"></button>
+                                    <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="2" aria-label="Afficher Aksante Pascal"></button>
+                                </div>
+                                <button class="team-carousel-arrow" type="button" data-bs-target="#teamCarousel" data-bs-slide="next" aria-label="Voir le membre suivant"><span aria-hidden="true">→</span></button>
                             </div>
                         </div>
+                        <p class="team-signoff">La qualité d'un service commence par l'attention qu'on porte aux gens.</p>
                     </div>
                 </div>
             </div>
