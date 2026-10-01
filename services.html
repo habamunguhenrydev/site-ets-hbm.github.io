@@ -3,23 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sit-ets-hbm2</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description" content="Découvrez les services HBM Multi-Services : soudure, quincaillerie, impression, coiffure et immobilier à Goma.">
+    <title>Nos services | HBM Multi-Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/landing.css">
 </head>
 <body>
-    <main>
-        <nav>
-            <img class="logos1" src="assets/images/logos.png" alt="logos">
-            <ul class="navlien1">
-                <li><a href="index.html">Acceuil</a></li>
-                <li><a href="a-propos.html">À propos</a></li>
-                <li><a href="services.html">Nos services</a></li>
-                <li><a href="nos contact.html">Nos contacts</a></li>
-            </ul>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg container py-3" aria-label="Navigation principale">
+            <a class="navbar-brand brand-mark" href="index.html" aria-label="HBM Multi-Services, accueil"><span class="brand-symbol">H</span><span>HBM <small>MULTI-SERVICES</small></span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Ouvrir le menu"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="mainNavigation">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="a-propos.html">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="services.html">Nos services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nos%20contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="btn btn-nav ms-lg-2" href="nos%20contact.html">Parlons de votre projet <span aria-hidden="true">↗</span></a></li>
+                </ul>
+            </div>
         </nav>
-        <div>
-            
-        </div>
+    </header>
+
+    <main>
+        <section class="subpage-hero" aria-labelledby="services-title">
+            <div class="container">
+                <p class="eyebrow">Nos savoir-faire · Goma</p>
+                <h1 id="services-title">Des solutions concrètes,<br><span>pour vos projets d’ici.</span></h1>
+                <p>De l’atelier aux services du quotidien, découvrez les métiers réunis au sein de HBM Multi-Services.</p>
+            </div>
+        </section>
+
+        <section class="service-directory section-pad" aria-label="Liste de nos services">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-md-6 col-lg-4">
+                        <article class="service-detail service-detail-photo">
+                            <img src="assets/images/quincaillerie.jpeg" alt="Espace de quincaillerie HBM" loading="lazy">
+                            <div class="service-detail-copy"><span class="service-detail-index">01 / CONSTRUCTION</span><h2>Mini-quincaillerie</h2><p>Outillage, matériaux et accessoires essentiels pour les travaux domestiques, artisanaux ou professionnels. Nous vous aidons à trouver les articles adaptés à votre chantier.</p></div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="service-detail service-detail-green">
+                            <span class="service-detail-index">02 / FABRICATION</span><span class="service-detail-symbol" aria-hidden="true">✳</span><h2>Atelier de soudure</h2><p>Fabrication métallique sur mesure, réparations et structures robustes pour le bâtiment, l’industrie et les projets communautaires.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <article class="service-detail service-detail-coral">
+                            <span class="service-detail-index">03 / IMPRESSION</span><span class="service-detail-symbol" aria-hidden="true">Aa</span><h2>Imprimerie & secrétariat</h2><p>Impressions couleur et noir et blanc, rapports, affiches, photos, invitations et articles personnalisés, ainsi que rédaction et assistance administrative.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <article class="service-detail service-detail-photo service-detail-wide">
+                            <img src="assets/images/salon.jpeg" alt="Espace du salon de coiffure HBM" loading="lazy">
+                            <div class="service-detail-copy"><span class="service-detail-index">04 / BIEN-ÊTRE</span><h2>Salon de coiffure mixte</h2><p>Coiffures tendance et soins capillaires pour hommes et femmes, avec un service personnalisé dans un cadre convivial.</p></div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <article class="service-detail service-detail-yellow service-detail-wide">
+                            <span class="service-detail-index">05 / IMMOBILIER</span><span class="service-detail-symbol" aria-hidden="true">⌂</span><h2>Services immobiliers</h2><p>Accompagnement dans l’achat, la vente, la location et la gestion de biens, avec des échanges transparents et des solutions adaptées à votre besoin.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section section-pad">
+            <div class="container">
+                <div class="contact-panel row align-items-center g-4">
+                    <div class="col-lg-8"><p class="eyebrow">Vous avez un besoin précis ?</p><h2>Parlons ensemble de votre projet.</h2><p>Notre équipe vous accueille à Goma.</p></div>
+                    <div class="col-lg-4 text-lg-end"><a class="btn btn-light btn-lg" href="nos%20contact.html">Nous contacter <span aria-hidden="true">↗</span></a></div>
+                    <span class="contact-decoration" aria-hidden="true">HBM</span>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4 footer-main">
+                <div class="col-sm-6 col-lg-4 footer-brand-column"><a class="navbar-brand brand-mark" href="index.html"><span class="brand-symbol">H</span><span>HBM <small>MULTI-SERVICES</small></span></a><p>Des services de proximité, portés par une équipe engagée à Goma.</p></div>
+                <div class="col-sm-6 col-lg-2"><h2 class="footer-heading">Navigation</h2><ul class="footer-links"><li><a href="index.html">Accueil</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="services.html">Nos services</a></li><li><a href="nos%20contact.html">Contact</a></li></ul></div>
+                <div class="col-sm-6 col-lg-3"><h2 class="footer-heading">Nous contacter</h2><address class="footer-address">Goma<br>République Démocratique du Congo</address><a class="footer-link" href="nos%20contact.html">Accéder au formulaire <span aria-hidden="true">↗</span></a></div>
+                <div class="col-sm-6 col-lg-3"><h2 class="footer-heading">Réseaux sociaux</h2><div class="social-links" aria-label="Réseaux sociaux HBM"><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="assets/images/icons/facebook.png" alt=""></a><a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><img src="assets/images/icons/tiktok.png" alt=""></a><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><img src="assets/images/icons/youtube.png" alt=""></a><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="assets/images/icons/linkedin.png" alt=""></a><a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X"><img src="assets/images/icons/x-twiter.png" alt=""></a><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="assets/images/icons/instagram.png" alt=""></a><a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><img src="assets/images/icons/whatsapp.png" alt=""></a></div></div>
+            </div>
+            <div class="footer-bottom"><p>© 2026 HBM Multi-Services · Goma, RDC</p><a href="nos%20contact.html">Une question ? Écrivez-nous <span aria-hidden="true">↗</span></a></div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
